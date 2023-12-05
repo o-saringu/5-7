@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF=8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="midasi">
+<h1>プログラム復習コンテンツ</h1>
+<a href="https://o-saringu.github.io/mokuji/">
+<div class="home"></div>
+</a>
+</div>
+
+<div class="oomidasi"><p>イージング（easing）</div>
+
+<div class="yoko">
+	<div class="yoko1">
+	<div class="komidasi1"><p>サンプルコードの結果</p></div>
+	<img src = "5-7.png">
+	</div>
+	<div class="yoko1">
+	<div class="komidasi2"><p>サンプルコード</div>
+	<div class="code">
+	<p>　　	float x;
+	<p>　　	float easing=0.05;
+	<p>
+	<p>　　	void setup(){
+	<p>　　	　size(480, 120);　　	　
+	<p>　　	}
+	<p>　　	void draw(){
+	<p>　　	　float targetX=mouseX;
+	<p>　　	　x+=(targetX-x)*easing;
+	<p>　　	　ellipse(x, 40, 12, 12);
+	<p>　　	}
+	</div>
+	</div>
+</div>
+
+<div class="komidasi3"><p>説明文</div>
+<div class="ep">
+	<p>　イージングとは関数ではなくテクニックのことである。
+	<p>　イージングを使うことで、線画より滑らかになるテクニックである。
+	<p>　dist()関数では始点と終点の2点間の距離を求める関数であった。
+	<p>　その算出された値に0.01や0.5といった数字を掛け算することによって、目的地へ少しずつ進んでいく線ができる。
+
+</div>
+</body>
